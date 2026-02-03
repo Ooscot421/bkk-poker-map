@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e44df4239082b8c595e7e69f107442b2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e44df4239082b8c595e7e69f107442b2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e44df4239082b8c595e7e69f107442b2 = L.map(
+                "map_e44df4239082b8c595e7e69f107442b2",
+                {
+                    center: [13.751397219999998, 100.58583174],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_e44df4239082b8c595e7e69f107442b2);
+
+            
+
+        
+    
+            var tile_layer_29469e2402ffc63782020e900a680827 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e44df4239082b8c595e7e69f107442b2);
+        
+    
+            var feature_group_3b842a20a8f4f36693eb72225ce5a456 = L.featureGroup(
+                {}
+            ).addTo(map_e44df4239082b8c595e7e69f107442b2);
+        
+    
+            var polygon_f7548f81b68c13674751df290079bed8 = L.polygon(
+                [[13.825, 100.558], [13.825, 100.59], [13.77, 100.59], [13.76, 100.578], [13.76, 100.56], [13.79, 100.555]],
+                {"bubblingMouseEvents": true, "color": "#2e7d32", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2e7d32", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3b842a20a8f4f36693eb72225ce5a456);
+        
+    
+            polygon_f7548f81b68c13674751df290079bed8.bindTooltip(
+                `<div>
+                     Ratchada
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e43445c1687a392c55f31dcfcb65e431 = L.marker(
+                [13.788333333333332, 100.57183333333334],
+                {}
+            ).addTo(feature_group_3b842a20a8f4f36693eb72225ce5a456);
+        
+    
+            var div_icon_e0d9dd12a3ccd9d1272e822c88e04337 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-size:13px;font-weight:900;color:#111;background:rgba(255,255,255,0.82);padding:4px 10px;border-radius:10px;border:1px solid rgba(0,0,0,0.25);box-shadow:0 1px 3px rgba(0,0,0,0.25);white-space:nowrap;\u0027\u003eRatchada\u003c/div\u003e"});
+            marker_e43445c1687a392c55f31dcfcb65e431.setIcon(div_icon_e0d9dd12a3ccd9d1272e822c88e04337);
+        
+    
+            var polygon_160daaac6f066e3d069251ea9257c33d = L.polygon(
+                [[13.77, 100.585], [13.77, 100.675], [13.725, 100.675], [13.725, 100.59], [13.74, 100.575]],
+                {"bubblingMouseEvents": true, "color": "#1565c0", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1565c0", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3b842a20a8f4f36693eb72225ce5a456);
+        
+    
+            polygon_160daaac6f066e3d069251ea9257c33d.bindTooltip(
+                `<div>
+                     Rama 9
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bca74132598843a5e6717a9eeca4acff = L.marker(
+                [13.746, 100.61999999999999],
+                {}
+            ).addTo(feature_group_3b842a20a8f4f36693eb72225ce5a456);
+        
+    
+            var div_icon_8fb2b65f109f3bb320ce226a187a51ca = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-size:13px;font-weight:900;color:#111;background:rgba(255,255,255,0.82);padding:4px 10px;border-radius:10px;border:1px solid rgba(0,0,0,0.25);box-shadow:0 1px 3px rgba(0,0,0,0.25);white-space:nowrap;\u0027\u003eRama 9\u003c/div\u003e"});
+            marker_bca74132598843a5e6717a9eeca4acff.setIcon(div_icon_8fb2b65f109f3bb320ce226a187a51ca);
+        
+    
+            var polygon_67820551d09aa651e1213c0930e91190 = L.polygon(
+                [[13.765, 100.535], [13.765, 100.615], [13.705, 100.615], [13.7, 100.56], [13.725, 100.535]],
+                {"bubblingMouseEvents": true, "color": "#6a1b9a", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#6a1b9a", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3b842a20a8f4f36693eb72225ce5a456);
+        
+    
+            polygon_67820551d09aa651e1213c0930e91190.bindTooltip(
+                `<div>
+                     Sukhumvit
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2b30cbf7406bf332a4307f4b64c9a897 = L.marker(
+                [13.732, 100.572],
+                {}
+            ).addTo(feature_group_3b842a20a8f4f36693eb72225ce5a456);
+        
+    
+            var div_icon_163ee382fbff3555968254def59f5f09 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-size:13px;font-weight:900;color:#111;background:rgba(255,255,255,0.82);padding:4px 10px;border-radius:10px;border:1px solid rgba(0,0,0,0.25);box-shadow:0 1px 3px rgba(0,0,0,0.25);white-space:nowrap;\u0027\u003eSukhumvit\u003c/div\u003e"});
+            marker_2b30cbf7406bf332a4307f4b64c9a897.setIcon(div_icon_163ee382fbff3555968254def59f5f09);
+        
+    
+            var polygon_c221eddadc313bc4a7629b77d48e4692 = L.polygon(
+                [[13.74, 100.5], [13.74, 100.54], [13.71, 100.54], [13.71, 100.5]],
+                {"bubblingMouseEvents": true, "color": "#ef6c00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ef6c00", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3b842a20a8f4f36693eb72225ce5a456);
+        
+    
+            polygon_c221eddadc313bc4a7629b77d48e4692.bindTooltip(
+                `<div>
+                     Silom
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c50c5df47da17c431ec10fdb9e2e352b = L.marker(
+                [13.725, 100.52000000000001],
+                {}
+            ).addTo(feature_group_3b842a20a8f4f36693eb72225ce5a456);
+        
+    
+            var div_icon_893eca0ec5d2f9cbc201059af9776bfb = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-size:13px;font-weight:900;color:#111;background:rgba(255,255,255,0.82);padding:4px 10px;border-radius:10px;border:1px solid rgba(0,0,0,0.25);box-shadow:0 1px 3px rgba(0,0,0,0.25);white-space:nowrap;\u0027\u003eSilom\u003c/div\u003e"});
+            marker_c50c5df47da17c431ec10fdb9e2e352b.setIcon(div_icon_893eca0ec5d2f9cbc201059af9776bfb);
+        
+    
+            var polygon_15486f72741de05001713640e33e3e59 = L.polygon(
+                [[13.715, 100.5], [13.715, 100.555], [13.675, 100.555], [13.675, 100.5]],
+                {"bubblingMouseEvents": true, "color": "#00838f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#00838f", "fillOpacity": 0.18, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3b842a20a8f4f36693eb72225ce5a456);
+        
+    
+            polygon_15486f72741de05001713640e33e3e59.bindTooltip(
+                `<div>
+                     Sathorn
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_744141f2b6b22290a36ba5e2727301d1 = L.marker(
+                [13.695, 100.5275],
+                {}
+            ).addTo(feature_group_3b842a20a8f4f36693eb72225ce5a456);
+        
+    
+            var div_icon_679c33f563f63c1b7af768e52bfc3396 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-size:13px;font-weight:900;color:#111;background:rgba(255,255,255,0.82);padding:4px 10px;border-radius:10px;border:1px solid rgba(0,0,0,0.25);box-shadow:0 1px 3px rgba(0,0,0,0.25);white-space:nowrap;\u0027\u003eSathorn\u003c/div\u003e"});
+            marker_744141f2b6b22290a36ba5e2727301d1.setIcon(div_icon_679c33f563f63c1b7af768e52bfc3396);
+        
+    
+            var feature_group_e1a5ab9ef125e88fc78f73b14b40ca3b = L.featureGroup(
+                {}
+            ).addTo(map_e44df4239082b8c595e7e69f107442b2);
+        
+    
+            var circle_marker_d599796742a7cdc8dc9a0003273a61b1 = L.circleMarker(
+                [13.76493, 100.565574],
+                {"bubblingMouseEvents": true, "color": "#b71c1c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e53935", "fillOpacity": 0.95, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e1a5ab9ef125e88fc78f73b14b40ca3b);
+        
+    
+            circle_marker_d599796742a7cdc8dc9a0003273a61b1.bindTooltip(
+                `<div>
+                     #1 點位1｜中國大使館後方多層物業
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fdec999568ec96a8a9645904ee7e47de = L.marker(
+                [13.76493, 100.565574],
+                {}
+            ).addTo(feature_group_e1a5ab9ef125e88fc78f73b14b40ca3b);
+        
+    
+            var div_icon_a1b5fe5027fa15859656ba0612e2d0b5 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-size:16px;font-weight:900;color:#b71c1c;text-shadow:0 0 3px #fff\u0027\u003e#1\u003c/div\u003e"});
+            marker_fdec999568ec96a8a9645904ee7e47de.setIcon(div_icon_a1b5fe5027fa15859656ba0612e2d0b5);
+        
+    
+            var circle_marker_43f775918e37ae279da01dc13be09fdb = L.circleMarker(
+                [13.7295999, 100.581041],
+                {"bubblingMouseEvents": true, "color": "#b71c1c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e53935", "fillOpacity": 0.95, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e1a5ab9ef125e88fc78f73b14b40ca3b);
+        
+    
+            circle_marker_43f775918e37ae279da01dc13be09fdb.bindTooltip(
+                `<div>
+                     #2 點位2｜Sukhumvit 55 Thonglor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_34bc39fbb108520dd8552c6ecfd67800 = L.marker(
+                [13.7295999, 100.581041],
+                {}
+            ).addTo(feature_group_e1a5ab9ef125e88fc78f73b14b40ca3b);
+        
+    
+            var div_icon_e70eb9189387c319dc9ac61c76068a61 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-size:16px;font-weight:900;color:#b71c1c;text-shadow:0 0 3px #fff\u0027\u003e#2\u003c/div\u003e"});
+            marker_34bc39fbb108520dd8552c6ecfd67800.setIcon(div_icon_e70eb9189387c319dc9ac61c76068a61);
+        
+    
+            var circle_marker_fa89447e505d30e6dac669c9e27c9d32 = L.circleMarker(
+                [13.72995, 100.58065],
+                {"bubblingMouseEvents": true, "color": "#b71c1c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e53935", "fillOpacity": 0.95, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e1a5ab9ef125e88fc78f73b14b40ca3b);
+        
+    
+            circle_marker_fa89447e505d30e6dac669c9e27c9d32.bindTooltip(
+                `<div>
+                     #3 點位3｜Thonglor 6
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_29d7bc00b2a5350ce52b0f5b919f2b77 = L.marker(
+                [13.72995, 100.58065],
+                {}
+            ).addTo(feature_group_e1a5ab9ef125e88fc78f73b14b40ca3b);
+        
+    
+            var div_icon_2cce86af1691733b84af0ac6c8f2f78d = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-size:16px;font-weight:900;color:#b71c1c;text-shadow:0 0 3px #fff\u0027\u003e#3\u003c/div\u003e"});
+            marker_29d7bc00b2a5350ce52b0f5b919f2b77.setIcon(div_icon_2cce86af1691733b84af0ac6c8f2f78d);
+        
+    
+            var circle_marker_c572960638b5e814185bb542445ca38e = L.circleMarker(
+                [13.7410382, 100.6280712],
+                {"bubblingMouseEvents": true, "color": "#b71c1c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e53935", "fillOpacity": 0.95, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e1a5ab9ef125e88fc78f73b14b40ca3b);
+        
+    
+            circle_marker_c572960638b5e814185bb542445ca38e.bindTooltip(
+                `<div>
+                     #4 點位4｜Rama 9 獨棟
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6f82a4378297bbe87546629d357c692a = L.marker(
+                [13.7410382, 100.6280712],
+                {}
+            ).addTo(feature_group_e1a5ab9ef125e88fc78f73b14b40ca3b);
+        
+    
+            var div_icon_0a5aa03ad49e8cca9beaeb3bfc259949 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-size:16px;font-weight:900;color:#b71c1c;text-shadow:0 0 3px #fff\u0027\u003e#4\u003c/div\u003e"});
+            marker_6f82a4378297bbe87546629d357c692a.setIcon(div_icon_0a5aa03ad49e8cca9beaeb3bfc259949);
+        
+    
+            var circle_marker_b88951d7027025f5180c81c86560f3c4 = L.circleMarker(
+                [13.791468, 100.5738225],
+                {"bubblingMouseEvents": true, "color": "#b71c1c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e53935", "fillOpacity": 0.95, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e1a5ab9ef125e88fc78f73b14b40ca3b);
+        
+    
+            circle_marker_b88951d7027025f5180c81c86560f3c4.bindTooltip(
+                `<div>
+                     #5 點位5｜SC Place (Ratchada)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_820ff1b9d20d88d6b1daeb940be1cc7c = L.marker(
+                [13.791468, 100.5738225],
+                {}
+            ).addTo(feature_group_e1a5ab9ef125e88fc78f73b14b40ca3b);
+        
+    
+            var div_icon_47a1a0ef909132b4cfabbfc8dc02e719 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-size:16px;font-weight:900;color:#b71c1c;text-shadow:0 0 3px #fff\u0027\u003e#5\u003c/div\u003e"});
+            marker_820ff1b9d20d88d6b1daeb940be1cc7c.setIcon(div_icon_47a1a0ef909132b4cfabbfc8dc02e719);
+        
+    
+            var feature_group_8c0ded5c987547d9e38b6f5f43b8e8fa = L.featureGroup(
+                {}
+            ).addTo(map_e44df4239082b8c595e7e69f107442b2);
+        
+    
+            var circle_bf33a2b33d4d7f2e933a41404accf8bc = L.circle(
+                [13.76493, 100.565574],
+                {"bubblingMouseEvents": true, "color": "#b71c1c", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#b71c1c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.65, "radius": 2000, "stroke": true, "weight": 2}
+            ).addTo(feature_group_8c0ded5c987547d9e38b6f5f43b8e8fa);
+        
+    
+            var circle_7e84d9e64052a5d2681b09cdda1b3e68 = L.circle(
+                [13.7295999, 100.581041],
+                {"bubblingMouseEvents": true, "color": "#b71c1c", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#b71c1c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.65, "radius": 2000, "stroke": true, "weight": 2}
+            ).addTo(feature_group_8c0ded5c987547d9e38b6f5f43b8e8fa);
+        
+    
+            var circle_f6fc646e0b125d08392c782f3fa6bed4 = L.circle(
+                [13.72995, 100.58065],
+                {"bubblingMouseEvents": true, "color": "#b71c1c", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#b71c1c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.65, "radius": 2000, "stroke": true, "weight": 2}
+            ).addTo(feature_group_8c0ded5c987547d9e38b6f5f43b8e8fa);
+        
+    
+            var circle_16bda5b36468c93f405a6e90148c93a5 = L.circle(
+                [13.7410382, 100.6280712],
+                {"bubblingMouseEvents": true, "color": "#b71c1c", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#b71c1c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.65, "radius": 2000, "stroke": true, "weight": 2}
+            ).addTo(feature_group_8c0ded5c987547d9e38b6f5f43b8e8fa);
+        
+    
+            var circle_399a779f397f2ff935f4a0c33e41ef2f = L.circle(
+                [13.791468, 100.5738225],
+                {"bubblingMouseEvents": true, "color": "#b71c1c", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#b71c1c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.65, "radius": 2000, "stroke": true, "weight": 2}
+            ).addTo(feature_group_8c0ded5c987547d9e38b6f5f43b8e8fa);
+        
+    
+            var feature_group_d5bf059cf1af9085cf5b31d9d30c8560 = L.featureGroup(
+                {}
+            ).addTo(map_e44df4239082b8c595e7e69f107442b2);
+        
+    
+            var poly_line_9432515177136bbadfdb3f1e70f9b3b4 = L.polyline(
+                [[13.724, 100.536], [13.736, 100.541], [13.748, 100.561], [13.756, 100.567], [13.786, 100.573], [13.82, 100.58]],
+                {"bubblingMouseEvents": true, "color": "#1565c0", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1565c0", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(feature_group_d5bf059cf1af9085cf5b31d9d30c8560);
+        
+    
+            poly_line_9432515177136bbadfdb3f1e70f9b3b4.bindTooltip(
+                `<div>
+                     MRT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_d23b558623116412ae1f2dc14768d95e = L.polyline(
+                [[13.661, 100.602], [13.69, 100.608], [13.709, 100.599], [13.736, 100.562], [13.742, 100.554], [13.747, 100.53], [13.803, 100.554]],
+                {"bubblingMouseEvents": true, "color": "#2e7d32", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2e7d32", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(feature_group_d5bf059cf1af9085cf5b31d9d30c8560);
+        
+    
+            poly_line_d23b558623116412ae1f2dc14768d95e.bindTooltip(
+                `<div>
+                     BTS Sukhumvit
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_531d470d75e36c592949ac8e095e236b = L.polyline(
+                [[13.746, 100.529], [13.739, 100.535], [13.733, 100.539], [13.725, 100.53], [13.713, 100.514]],
+                {"bubblingMouseEvents": true, "color": "#00796b", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#00796b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(feature_group_d5bf059cf1af9085cf5b31d9d30c8560);
+        
+    
+            poly_line_531d470d75e36c592949ac8e095e236b.bindTooltip(
+                `<div>
+                     BTS Silom
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_2e3b4056e1a15ba85ce156071402dacb = L.featureGroup(
+                {}
+            ).addTo(map_e44df4239082b8c595e7e69f107442b2);
+        
+    
+            var circle_marker_3efdef5d897d1cf11a26b5f02cacdc9c = L.circleMarker(
+                [13.77515, 100.57333],
+                {"bubblingMouseEvents": true, "color": "#0d47a1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1565c0", "fillOpacity": 0.95, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(feature_group_2e3b4056e1a15ba85ce156071402dacb);
+        
+    
+            circle_marker_3efdef5d897d1cf11a26b5f02cacdc9c.bindTooltip(
+                `<div>
+                     Swissotel Bangkok Ratchada ★5
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0908a17b3a380eec8d683aa1a1456ad0 = L.marker(
+                [13.77515, 100.57333],
+                {}
+            ).addTo(feature_group_2e3b4056e1a15ba85ce156071402dacb);
+        
+    
+            var div_icon_e6c3c731c4caac27375f56954259f0fd = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-size:14px\u0027\u003e\ud83d\udecf\ufe0f\u003c/div\u003e"});
+            marker_0908a17b3a380eec8d683aa1a1456ad0.setIcon(div_icon_e6c3c731c4caac27375f56954259f0fd);
+        
+    
+        var popup_ceed814fd40810a9d34ed4ab4e6fb143 = L.popup({"maxWidth": 320});
+
+        
+            var html_410c45c82d186bc3a1a9d385dcc0a50c = $(`<div id="html_410c45c82d186bc3a1a9d385dcc0a50c" style="width: 100.0%; height: 100.0%;"><b>Swissotel Bangkok Ratchada</b><br/>★5<br/>距離點位 1 約 1.41 km</div>`)[0];
+            popup_ceed814fd40810a9d34ed4ab4e6fb143.setContent(html_410c45c82d186bc3a1a9d385dcc0a50c);
+        
+
+        marker_0908a17b3a380eec8d683aa1a1456ad0.bindPopup(popup_ceed814fd40810a9d34ed4ab4e6fb143)
+        ;
+
+        
+    
+    
+            var circle_marker_689239408daaccfc57751e363495799c = L.circleMarker(
+                [13.7751944, 100.573112],
+                {"bubblingMouseEvents": true, "color": "#0d47a1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1565c0", "fillOpacity": 0.95, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(feature_group_2e3b4056e1a15ba85ce156071402dacb);
+        
+    
+            circle_marker_689239408daaccfc57751e363495799c.bindTooltip(
+                `<div>
+                     The Emerald Hotel Bangkok ★4
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e099c5d02b61cc32dc00dcb7b325a6c8 = L.marker(
+                [13.7751944, 100.573112],
+                {}
+            ).addTo(feature_group_2e3b4056e1a15ba85ce156071402dacb);
+        
+    
+            var div_icon_67418b6e872633a4e5d4b39aadbd875c = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-size:14px\u0027\u003e\ud83d\udecf\ufe0f\u003c/div\u003e"});
+            marker_e099c5d02b61cc32dc00dcb7b325a6c8.setIcon(div_icon_67418b6e872633a4e5d4b39aadbd875c);
+        
+    
+        var popup_65bc13479d0e28a5c846dc423794b85d = L.popup({"maxWidth": 320});
+
+        
+            var html_643690586c01c8ea612ff22ac099c149 = $(`<div id="html_643690586c01c8ea612ff22ac099c149" style="width: 100.0%; height: 100.0%;"><b>The Emerald Hotel Bangkok</b><br/>★4<br/>距離點位 1 約 1.40 km</div>`)[0];
+            popup_65bc13479d0e28a5c846dc423794b85d.setContent(html_643690586c01c8ea612ff22ac099c149);
+        
+
+        marker_e099c5d02b61cc32dc00dcb7b325a6c8.bindPopup(popup_65bc13479d0e28a5c846dc423794b85d)
+        ;
+
+        
+    
+    
+            var circle_marker_7516c22bf3437b17b5781d12fce94c30 = L.circleMarker(
+                [13.7572, 100.5653],
+                {"bubblingMouseEvents": true, "color": "#0d47a1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1565c0", "fillOpacity": 0.95, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(feature_group_2e3b4056e1a15ba85ce156071402dacb);
+        
+    
+            circle_marker_7516c22bf3437b17b5781d12fce94c30.bindTooltip(
+                `<div>
+                     Avani Ratchada Bangkok Hotel ★4
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e61bf5aea57591eb407fa2e8420e58b = L.marker(
+                [13.7572, 100.5653],
+                {}
+            ).addTo(feature_group_2e3b4056e1a15ba85ce156071402dacb);
+        
+    
+            var div_icon_49bf0119c7826d821ab61e03630e4c1b = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-size:14px\u0027\u003e\ud83d\udecf\ufe0f\u003c/div\u003e"});
+            marker_1e61bf5aea57591eb407fa2e8420e58b.setIcon(div_icon_49bf0119c7826d821ab61e03630e4c1b);
+        
+    
+        var popup_793c47c8cdbe9917b7704c9ea4a08f45 = L.popup({"maxWidth": 320});
+
+        
+            var html_b130452286394b91e28e88fde782b09e = $(`<div id="html_b130452286394b91e28e88fde782b09e" style="width: 100.0%; height: 100.0%;"><b>Avani Ratchada Bangkok Hotel</b><br/>★4<br/>距離點位 1 約 0.86 km</div>`)[0];
+            popup_793c47c8cdbe9917b7704c9ea4a08f45.setContent(html_b130452286394b91e28e88fde782b09e);
+        
+
+        marker_1e61bf5aea57591eb407fa2e8420e58b.bindPopup(popup_793c47c8cdbe9917b7704c9ea4a08f45)
+        ;
+
+        
+    
+    
+            var circle_marker_21e1138a5b876acc6a9f6fc3e4c865ed = L.circleMarker(
+                [13.7489349, 100.5652724],
+                {"bubblingMouseEvents": true, "color": "#0d47a1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1565c0", "fillOpacity": 0.95, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(feature_group_2e3b4056e1a15ba85ce156071402dacb);
+        
+    
+            circle_marker_21e1138a5b876acc6a9f6fc3e4c865ed.bindTooltip(
+                `<div>
+                     Lancaster Bangkok ★5
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_abf3ace81bf7c03ddd06fe1269a60432 = L.marker(
+                [13.7489349, 100.5652724],
+                {}
+            ).addTo(feature_group_2e3b4056e1a15ba85ce156071402dacb);
+        
+    
+            var div_icon_ac94e930df20c878d08ac963f7436f18 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-size:14px\u0027\u003e\ud83d\udecf\ufe0f\u003c/div\u003e"});
+            marker_abf3ace81bf7c03ddd06fe1269a60432.setIcon(div_icon_ac94e930df20c878d08ac963f7436f18);
+        
+    
+        var popup_ce7c8da96632eaee4b54538ddff564d0 = L.popup({"maxWidth": 320});
+
+        
+            var html_75c01e93205e23134c7df5dd1b7ba557 = $(`<div id="html_75c01e93205e23134c7df5dd1b7ba557" style="width: 100.0%; height: 100.0%;"><b>Lancaster Bangkok</b><br/>★5<br/>距離點位 1 約 1.78 km</div>`)[0];
+            popup_ce7c8da96632eaee4b54538ddff564d0.setContent(html_75c01e93205e23134c7df5dd1b7ba557);
+        
+
+        marker_abf3ace81bf7c03ddd06fe1269a60432.bindPopup(popup_ce7c8da96632eaee4b54538ddff564d0)
+        ;
+
+        
+    
+    
+            var circle_marker_4a9b4a2506bf8dadf8eb1e075f8d2eb6 = L.circleMarker(
+                [13.73075, 100.5821],
+                {"bubblingMouseEvents": true, "color": "#0d47a1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1565c0", "fillOpacity": 0.95, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(feature_group_2e3b4056e1a15ba85ce156071402dacb);
+        
+    
+            circle_marker_4a9b4a2506bf8dadf8eb1e075f8d2eb6.bindTooltip(
+                `<div>
+                     Grande Centre Point Sukhumvit 55 ★5
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_59b72a3db9825ec306bac1867ea96fd7 = L.marker(
+                [13.73075, 100.5821],
+                {}
+            ).addTo(feature_group_2e3b4056e1a15ba85ce156071402dacb);
+        
+    
+            var div_icon_1c6f6fc13f43c8cc9b7ceec9308c909b = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-size:14px\u0027\u003e\ud83d\udecf\ufe0f\u003c/div\u003e"});
+            marker_59b72a3db9825ec306bac1867ea96fd7.setIcon(div_icon_1c6f6fc13f43c8cc9b7ceec9308c909b);
+        
+    
+        var popup_6ce01da10fb52ba4210e8ac26ea0d722 = L.popup({"maxWidth": 320});
+
+        
+            var html_30606133f436303adc6a7a49517782f6 = $(`<div id="html_30606133f436303adc6a7a49517782f6" style="width: 100.0%; height: 100.0%;"><b>Grande Centre Point Sukhumvit 55</b><br/>★5<br/>距離點位 2 約 0.17 km</div>`)[0];
+            popup_6ce01da10fb52ba4210e8ac26ea0d722.setContent(html_30606133f436303adc6a7a49517782f6);
+        
+
+        marker_59b72a3db9825ec306bac1867ea96fd7.bindPopup(popup_6ce01da10fb52ba4210e8ac26ea0d722)
+        ;
+
+        
+    
+    
+            var circle_marker_404bf5894fd4a0fb91f13638c84d6dd5 = L.circleMarker(
+                [13.72319, 100.58051],
+                {"bubblingMouseEvents": true, "color": "#0d47a1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1565c0", "fillOpacity": 0.95, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(feature_group_2e3b4056e1a15ba85ce156071402dacb);
+        
+    
+            circle_marker_404bf5894fd4a0fb91f13638c84d6dd5.bindTooltip(
+                `<div>
+                     Bangkok Marriott Hotel Sukhumvit ★5
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_42ef5d9cb6b38ca544ffa9c08c26b05b = L.marker(
+                [13.72319, 100.58051],
+                {}
+            ).addTo(feature_group_2e3b4056e1a15ba85ce156071402dacb);
+        
+    
+            var div_icon_9996c74ff6b8b4c509c47d1db82d89f3 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-size:14px\u0027\u003e\ud83d\udecf\ufe0f\u003c/div\u003e"});
+            marker_42ef5d9cb6b38ca544ffa9c08c26b05b.setIcon(div_icon_9996c74ff6b8b4c509c47d1db82d89f3);
+        
+    
+        var popup_90c0feb85477eebbab7c893c6231558e = L.popup({"maxWidth": 320});
+
+        
+            var html_53d0ea3a14b580c27e9cbb1a2bc5a6be = $(`<div id="html_53d0ea3a14b580c27e9cbb1a2bc5a6be" style="width: 100.0%; height: 100.0%;"><b>Bangkok Marriott Hotel Sukhumvit</b><br/>★5<br/>距離點位 2 約 0.72 km</div>`)[0];
+            popup_90c0feb85477eebbab7c893c6231558e.setContent(html_53d0ea3a14b580c27e9cbb1a2bc5a6be);
+        
+
+        marker_42ef5d9cb6b38ca544ffa9c08c26b05b.bindPopup(popup_90c0feb85477eebbab7c893c6231558e)
+        ;
+
+        
+    
+    
+            var circle_marker_eca963a5fb3a037c045ba5a8534987f3 = L.circleMarker(
+                [13.72834, 100.58072],
+                {"bubblingMouseEvents": true, "color": "#0d47a1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1565c0", "fillOpacity": 0.95, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(feature_group_2e3b4056e1a15ba85ce156071402dacb);
+        
+    
+            circle_marker_eca963a5fb3a037c045ba5a8534987f3.bindTooltip(
+                `<div>
+                     Staybridge Suites Bangkok Thonglor ★4
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2d27a1d0758b9c6a39fdb3196b740791 = L.marker(
+                [13.72834, 100.58072],
+                {}
+            ).addTo(feature_group_2e3b4056e1a15ba85ce156071402dacb);
+        
+    
+            var div_icon_aa59099312c05c316cba8f3d572b0a19 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-size:14px\u0027\u003e\ud83d\udecf\ufe0f\u003c/div\u003e"});
+            marker_2d27a1d0758b9c6a39fdb3196b740791.setIcon(div_icon_aa59099312c05c316cba8f3d572b0a19);
+        
+    
+        var popup_dfcbcffabafd16d227734a4a4dd537fc = L.popup({"maxWidth": 320});
+
+        
+            var html_7bcb5c5fd6e39e23f884406f71783063 = $(`<div id="html_7bcb5c5fd6e39e23f884406f71783063" style="width: 100.0%; height: 100.0%;"><b>Staybridge Suites Bangkok Thonglor</b><br/>★4<br/>距離點位 2 約 0.14 km</div>`)[0];
+            popup_dfcbcffabafd16d227734a4a4dd537fc.setContent(html_7bcb5c5fd6e39e23f884406f71783063);
+        
+
+        marker_2d27a1d0758b9c6a39fdb3196b740791.bindPopup(popup_dfcbcffabafd16d227734a4a4dd537fc)
+        ;
+
+        
+    
+    
+            var feature_group_923848fa54f21f5b471f3f3d99f822f0 = L.featureGroup(
+                {}
+            ).addTo(map_e44df4239082b8c595e7e69f107442b2);
+        
+    
+            var poly_line_2cd26d282edc81bf815b9ea12dd314af = L.polyline(
+                [[13.76493, 100.565574], [13.7295999, 100.581041]],
+                {"bubblingMouseEvents": true, "color": "#263238", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#263238", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.4, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_923848fa54f21f5b471f3f3d99f822f0);
+        
+    
+            var marker_72c1b1a9bba4512eaed3a6a14d9a8cac = L.marker(
+                [13.74726495, 100.5733075],
+                {}
+            ).addTo(feature_group_923848fa54f21f5b471f3f3d99f822f0);
+        
+    
+            var div_icon_c46886cbc429e8ad119da0982f2318e1 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-size:12px;font-weight:800;color:#263238;background:rgba(255,255,255,0.85);padding:2px 6px;border-radius:8px;border:1px solid rgba(0,0,0,0.25);white-space:nowrap;\u0027\u003e1\u21942 4.27 km\u003c/div\u003e"});
+            marker_72c1b1a9bba4512eaed3a6a14d9a8cac.setIcon(div_icon_c46886cbc429e8ad119da0982f2318e1);
+        
+    
+            var poly_line_848869956b1c6b82b631d124fcd9f5f8 = L.polyline(
+                [[13.76493, 100.565574], [13.72995, 100.58065]],
+                {"bubblingMouseEvents": true, "color": "#263238", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#263238", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.4, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_923848fa54f21f5b471f3f3d99f822f0);
+        
+    
+            var marker_236a6a7b8468b031f34640fa4949999e = L.marker(
+                [13.747440000000001, 100.57311200000001],
+                {}
+            ).addTo(feature_group_923848fa54f21f5b471f3f3d99f822f0);
+        
+    
+            var div_icon_2ccace3c87057e4a02ae8647304cf004 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-size:12px;font-weight:800;color:#263238;background:rgba(255,255,255,0.85);padding:2px 6px;border-radius:8px;border:1px solid rgba(0,0,0,0.25);white-space:nowrap;\u0027\u003e1\u21943 4.22 km\u003c/div\u003e"});
+            marker_236a6a7b8468b031f34640fa4949999e.setIcon(div_icon_2ccace3c87057e4a02ae8647304cf004);
+        
+    
+            var poly_line_c80d083158696de2a598f7ab7c44ddf8 = L.polyline(
+                [[13.76493, 100.565574], [13.7410382, 100.6280712]],
+                {"bubblingMouseEvents": true, "color": "#263238", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#263238", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.4, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_923848fa54f21f5b471f3f3d99f822f0);
+        
+    
+            var marker_38344eea45d93bb9ed69c2ad2f00ddd3 = L.marker(
+                [13.752984099999999, 100.5968226],
+                {}
+            ).addTo(feature_group_923848fa54f21f5b471f3f3d99f822f0);
+        
+    
+            var div_icon_3a9d7bfc262706df04d4b766837fab80 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-size:12px;font-weight:800;color:#263238;background:rgba(255,255,255,0.85);padding:2px 6px;border-radius:8px;border:1px solid rgba(0,0,0,0.25);white-space:nowrap;\u0027\u003e1\u21944 7.25 km\u003c/div\u003e"});
+            marker_38344eea45d93bb9ed69c2ad2f00ddd3.setIcon(div_icon_3a9d7bfc262706df04d4b766837fab80);
+        
+    
+            var poly_line_90fe7c3239f57ff0f62dba77779e8395 = L.polyline(
+                [[13.76493, 100.565574], [13.791468, 100.5738225]],
+                {"bubblingMouseEvents": true, "color": "#263238", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#263238", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.4, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_923848fa54f21f5b471f3f3d99f822f0);
+        
+    
+            var marker_5f42befe8d380a0ea54847e1f9d4c3cc = L.marker(
+                [13.778199, 100.56969825],
+                {}
+            ).addTo(feature_group_923848fa54f21f5b471f3f3d99f822f0);
+        
+    
+            var div_icon_d58ba5a4b26df99eba28edb436489594 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-size:12px;font-weight:800;color:#263238;background:rgba(255,255,255,0.85);padding:2px 6px;border-radius:8px;border:1px solid rgba(0,0,0,0.25);white-space:nowrap;\u0027\u003e1\u21945 3.08 km\u003c/div\u003e"});
+            marker_5f42befe8d380a0ea54847e1f9d4c3cc.setIcon(div_icon_d58ba5a4b26df99eba28edb436489594);
+        
+    
+            var poly_line_f3891663c12f8519eb6d8af4aa31d94c = L.polyline(
+                [[13.7295999, 100.581041], [13.72995, 100.58065]],
+                {"bubblingMouseEvents": true, "color": "#263238", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#263238", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.4, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_923848fa54f21f5b471f3f3d99f822f0);
+        
+    
+            var marker_9f9ee96b05dc30bfdd57150482b930fc = L.marker(
+                [13.72977495, 100.58084550000001],
+                {}
+            ).addTo(feature_group_923848fa54f21f5b471f3f3d99f822f0);
+        
+    
+            var div_icon_0da0145547903458610f78cd09a16db1 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-size:12px;font-weight:800;color:#263238;background:rgba(255,255,255,0.85);padding:2px 6px;border-radius:8px;border:1px solid rgba(0,0,0,0.25);white-space:nowrap;\u0027\u003e2\u21943 0.06 km\u003c/div\u003e"});
+            marker_9f9ee96b05dc30bfdd57150482b930fc.setIcon(div_icon_0da0145547903458610f78cd09a16db1);
+        
+    
+            var poly_line_25cbd0ab8059ee9eec1f404cdbda724a = L.polyline(
+                [[13.7295999, 100.581041], [13.7410382, 100.6280712]],
+                {"bubblingMouseEvents": true, "color": "#263238", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#263238", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.4, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_923848fa54f21f5b471f3f3d99f822f0);
+        
+    
+            var marker_e10520e959bf49c5a7cb9f0502dc6fe5 = L.marker(
+                [13.735319050000001, 100.6045561],
+                {}
+            ).addTo(feature_group_923848fa54f21f5b471f3f3d99f822f0);
+        
+    
+            var div_icon_cef54a70d1055e89b99bc3927b7ac3a7 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-size:12px;font-weight:800;color:#263238;background:rgba(255,255,255,0.85);padding:2px 6px;border-radius:8px;border:1px solid rgba(0,0,0,0.25);white-space:nowrap;\u0027\u003e2\u21944 5.24 km\u003c/div\u003e"});
+            marker_e10520e959bf49c5a7cb9f0502dc6fe5.setIcon(div_icon_cef54a70d1055e89b99bc3927b7ac3a7);
+        
+    
+            var poly_line_4526905bd3bceb6382f2c682f1ec6290 = L.polyline(
+                [[13.7295999, 100.581041], [13.791468, 100.5738225]],
+                {"bubblingMouseEvents": true, "color": "#263238", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#263238", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.4, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_923848fa54f21f5b471f3f3d99f822f0);
+        
+    
+            var marker_228a792b7c948fe83867041903437baf = L.marker(
+                [13.76053395, 100.57743175],
+                {}
+            ).addTo(feature_group_923848fa54f21f5b471f3f3d99f822f0);
+        
+    
+            var div_icon_c09e01847723536c4d14aa81e193bf26 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-size:12px;font-weight:800;color:#263238;background:rgba(255,255,255,0.85);padding:2px 6px;border-radius:8px;border:1px solid rgba(0,0,0,0.25);white-space:nowrap;\u0027\u003e2\u21945 6.92 km\u003c/div\u003e"});
+            marker_228a792b7c948fe83867041903437baf.setIcon(div_icon_c09e01847723536c4d14aa81e193bf26);
+        
+    
+            var poly_line_cfcc4c0be07520bc54088e0c1a280562 = L.polyline(
+                [[13.72995, 100.58065], [13.7410382, 100.6280712]],
+                {"bubblingMouseEvents": true, "color": "#263238", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#263238", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.4, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_923848fa54f21f5b471f3f3d99f822f0);
+        
+    
+            var marker_2d72c3b9e4698d7e92f337df50df944f = L.marker(
+                [13.7354941, 100.6043606],
+                {}
+            ).addTo(feature_group_923848fa54f21f5b471f3f3d99f822f0);
+        
+    
+            var div_icon_8b0fd9948e1bb5e042320319c5c82247 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-size:12px;font-weight:800;color:#263238;background:rgba(255,255,255,0.85);padding:2px 6px;border-radius:8px;border:1px solid rgba(0,0,0,0.25);white-space:nowrap;\u0027\u003e3\u21944 5.27 km\u003c/div\u003e"});
+            marker_2d72c3b9e4698d7e92f337df50df944f.setIcon(div_icon_8b0fd9948e1bb5e042320319c5c82247);
+        
+    
+            var poly_line_56ba0d53f7148668d25e6493419fe5e9 = L.polyline(
+                [[13.72995, 100.58065], [13.791468, 100.5738225]],
+                {"bubblingMouseEvents": true, "color": "#263238", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#263238", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.4, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_923848fa54f21f5b471f3f3d99f822f0);
+        
+    
+            var marker_823378ec91df4ceee6254312835f720e = L.marker(
+                [13.760709, 100.57723625],
+                {}
+            ).addTo(feature_group_923848fa54f21f5b471f3f3d99f822f0);
+        
+    
+            var div_icon_e34e160f84d526a9fe083e9c4fca9af4 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-size:12px;font-weight:800;color:#263238;background:rgba(255,255,255,0.85);padding:2px 6px;border-radius:8px;border:1px solid rgba(0,0,0,0.25);white-space:nowrap;\u0027\u003e3\u21945 6.88 km\u003c/div\u003e"});
+            marker_823378ec91df4ceee6254312835f720e.setIcon(div_icon_e34e160f84d526a9fe083e9c4fca9af4);
+        
+    
+            var poly_line_e3f44a32eb68bd62c53b6222848c1ffe = L.polyline(
+                [[13.7410382, 100.6280712], [13.791468, 100.5738225]],
+                {"bubblingMouseEvents": true, "color": "#263238", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#263238", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.4, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_923848fa54f21f5b471f3f3d99f822f0);
+        
+    
+            var marker_c79f9e497f470c64303ce22320238bc0 = L.marker(
+                [13.7662531, 100.60094685],
+                {}
+            ).addTo(feature_group_923848fa54f21f5b471f3f3d99f822f0);
+        
+    
+            var div_icon_70f79c88c2be9bdbd5c98cf9d71134ad = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-size:12px;font-weight:800;color:#263238;background:rgba(255,255,255,0.85);padding:2px 6px;border-radius:8px;border:1px solid rgba(0,0,0,0.25);white-space:nowrap;\u0027\u003e4\u21945 8.11 km\u003c/div\u003e"});
+            marker_c79f9e497f470c64303ce22320238bc0.setIcon(div_icon_70f79c88c2be9bdbd5c98cf9d71134ad);
+        
+    
+            var layer_control_f5feab8cf0f71180167e83df3e87ff7a = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_29469e2402ffc63782020e900a680827,
+                },
+                overlays :  {
+                    "\u5546\u5708\uff08v11 \u591a\u908a\u5f62\uff09" : feature_group_3b842a20a8f4f36693eb72225ce5a456,
+                    "\u9ede\u4f4d\uff08\u7d05\uff09" : feature_group_e1a5ab9ef125e88fc78f73b14b40ca3b,
+                    "2km \u5708" : feature_group_8c0ded5c987547d9e38b6f5f43b8e8fa,
+                    "\u6377\u904b\u7dda\uff08\u793a\u610f\uff09" : feature_group_d5bf059cf1af9085cf5b31d9d30c8560,
+                    "2km \u5167 4\u20135\u2605 \u98ef\u5e97" : feature_group_2e3b4056e1a15ba85ce156071402dacb,
+                    "\u9ede\u4f4d\u76f4\u7dda\u8ddd\u96e2" : feature_group_923848fa54f21f5b471f3f3d99f822f0,
+                },
+            };
+            L.control.layers(
+                layer_control_f5feab8cf0f71180167e83df3e87ff7a.base_layers,
+                layer_control_f5feab8cf0f71180167e83df3e87ff7a.overlays,
+                {"autoZIndex": true, "collapsed": false, "position": "topright"}
+            ).addTo(map_e44df4239082b8c595e7e69f107442b2);
+        
+</script>
+</html>
